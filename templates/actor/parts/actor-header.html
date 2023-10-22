@@ -8,6 +8,10 @@
                 <!-- <label for="system.origin" class="resource-label">{{localize "FALLOUT.UI.ORIGIN"}}</label> -->
                 <input placeholder="Origin" type="text" class="underline" name="system.origin" value="{{system.origin}}"
                     data-dtype="String" />
+                {{#if (or (eq actor.type "npc") (eq actor.type "creature"))}}
+                <input placeholder="Type" type="text" class="underline" name="system.type" value="{{system.type}}"
+                       data-dtype="String" />
+                {{/if}}
             </span>
         </div>
 
