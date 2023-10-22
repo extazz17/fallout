@@ -26,6 +26,7 @@
 	"arc":" - ",
 	"freeze":" - ",
 	"limited":" - ",
-	"unstable_radiation":"  - ",
+	"unstable":"  - ",
+	"radiation":"  - ",
 	"slow_load":" - "
 }
